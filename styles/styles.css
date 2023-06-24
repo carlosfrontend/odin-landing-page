@@ -16,13 +16,13 @@
     color: #F9FAF8;
 }
 
-.secondary-text, .link, .action-content p {
+.secondary-text, .link, .action-content p, .attribution-container {
     font-size: 18px;
     color:#E5E7EB;
 }
 
 .logo {
-    min-width: 395px;
+    min-width: 500px;
     flex-shrink: 0;
 }
 
@@ -47,9 +47,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    margin-top: 16px;
-    justify-self: flex-end;
-    flex-shrink: 0;
+    margin-top: 50px;
 }
 
 .content-title {
@@ -83,44 +81,42 @@ blockquote p {
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
     align-items: center;
     padding: 8px;
-    gap: 40px;
 }
-
 .links {
     display: flex;
-    gap: 16px;
-    flex-shrink: 0;
+    gap:30px;
 }
-
 .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 80px 8px;
-    gap: 40px;
-    max-height: 400px;
-    
+    margin: 80px 200px;
+    margin-top: 50px;
+    padding: 8px;
+    gap: 100px;
 }
-.navbar, .header-content {
-    margin-left: 250px;
-    margin-right: 250px;
-}
+
 .main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 395px;
-    flex-shrink: 0;
+    max-width: 380px;
 }
 
 .header-img-container {
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 2;
 }
-
 .header-img {
-    width: 600px;
-    height: 240px;
-    flex-shrink: 0;
+    width: 380px;
+    height: auto;
+}
+.attribution-container {
+    width: 380px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 0;
 }
