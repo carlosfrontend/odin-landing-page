@@ -48,6 +48,7 @@
 
 .sign-up.outline {
     border: 2px solid #F9FAF8;
+    margin-bottom: 33px;
 }
 
 button.sign-up {
@@ -278,4 +279,21 @@ blockquote p {
     height: auto;
     box-shadow: 2px 1px 2px #ffffff;
     border-radius: 15px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    flex-wrap: wrap;
+    flex: 1;
+    border:150px solid #ffff
+}
+
+.footer {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
