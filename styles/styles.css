@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
 }
 
 .header,
@@ -99,7 +99,9 @@ blockquote p {
     width: 350px;
     display: flex;
     justify-content: center;
-    padding: 8px 0;
+    margin: 18px 0;
+    align-items: flex-end;
+    background-color: #3882f6a1;
 }
 
 .attribution-container a {
@@ -139,6 +141,7 @@ blockquote p {
 .thumb3,
 .thumb4 {
     border-radius: 8px;
+    box-shadow: 2px -2px 4px rgba(0,0,0.4);
 }
 
 .thumb1 {
@@ -206,11 +209,13 @@ blockquote p {
 
 .blockquote {
     max-width: 500px;
-    text-align: justify;
+    text-align: left;
 }
 
 .figcaption {
     text-align: right;
+    margin-top: 20px;
+    margin-right: 50px;
 }
 
 
@@ -266,8 +271,11 @@ blockquote p {
     display: flex;
     flex-direction: column;
     width: 350px;
+    height: 284px;
 }
 .header-img {
     width: 350px;
     height: auto;
+    box-shadow: 2px 1px 2px #ffffff;
+    border-radius: 15px;
 }
