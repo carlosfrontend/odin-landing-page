@@ -130,7 +130,7 @@ blockquote p {
 .attribution-container {
     width: 380px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 8px 0;
 }
 .attribution-container a {
@@ -141,6 +141,79 @@ blockquote p {
 
 .attribution-container a:hover {
     color: #dbd9d9;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-title {
+    padding: 45px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.thumb1, .thumb2, .thumb3, .thumb4 {
+    border-radius: 8px;
+}
+
+.thumb1{
+        background: url(../img/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+      
+}
+
+.thumb2{
+    background: url(../img/austin-distel-gUIJ0YszPig-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  
+}
+
+.thumb3{
+    background: url(../img/mateusz-butkiewicz-4kPa9y5pb8M-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  
+}
+
+.thumb4{
+    background: url(../img/hemant-kanojiya-F00Giwu9mag-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  
+}
+
+.subtext  {
+    width: 200px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.subtext a {
+    color: #434141;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.subtext a:hover {
+    color: #196ef7;
     font-weight: 900;
     text-decoration: none;
 }
