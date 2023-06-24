@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Roboto,  sans-serif;
-    /* border:1px solid lightblue; */
+    font-family: Roboto, sans-serif;
+    border: 1px solid lightblue;
 }
 
-.header, .footer {
+.header,
+.footer {
     background-color: #1F2937;
 }
 
@@ -16,38 +17,41 @@
     color: #F9FAF8;
 }
 
-.secondary-text, .link, .action-content p, .attribution-container {
+.secondary-text,
+.link,
+.action-content p,
+.attribution-container {
     font-size: 18px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
 
 .link {
     text-decoration: none;
 }
+
 .link:hover {
     font-weight: 700;
-    color:#F9FAF8;
+    color: #F9FAF8;
 }
 
-.logo {
-    min-width: 500px;
-    flex-shrink: 0;
-}
-
-.logo, .action-content h3 {
+.logo,
+.action-content h3 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.action, .sign-up {
+.action,
+.sign-up {
     background-color: #3882F6;
 }
-.sign-up.outline{
-    border:2px solid #F9FAF8;
+
+.sign-up.outline {
+    border: 2px solid #F9FAF8;
 }
-.sign-up {
-    color:#F9FAF8;
+
+button.sign-up {
+    color: #F9FAF8;
     font-weight: 900;
     width: 120px;
     height: 40px;
@@ -55,12 +59,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    margin-top: 50px;
     cursor: pointer;
+    border: none;
+    margin-top: 40px;
 }
 
 .sign-up:hover {
-    color:#F9FAF8;
+    color: #F9FAF8;
     background-color: #196ef7;
 }
 
@@ -73,7 +78,9 @@
 .quote {
     background-color: #E5E7EB;
 }
-blockquote p , .subtext {
+
+blockquote p,
+.subtext {
     color: #1F2937;
     font-weight: 300;
 }
@@ -84,55 +91,17 @@ blockquote p {
 }
 
 .footer {
-    color: #E5E7EB ;
+    color: #E5E7EB;
 }
 
-.header {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-    align-items: center;
-    padding: 8px;
-}
-.links {
-    display: flex;
-    gap:30px;
-}
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    margin: 80px 200px;
-    margin-top: 50px;
-    padding: 8px;
-    gap: 100px;
-}
 
-.main-content {
-    max-width: 380px;
-}
-
-.header-img-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    flex: 2;
-}
-.header-img {
-    width: 380px;
-    height: auto;
-}
 .attribution-container {
-    width: 380px;
+    width: 350px;
     display: flex;
     justify-content: center;
     padding: 8px 0;
 }
+
 .attribution-container a {
     color: white;
     font-weight: 900;
@@ -149,6 +118,7 @@ blockquote p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .content-title {
@@ -164,43 +134,50 @@ blockquote p {
     flex-wrap: wrap;
 }
 
-.thumb1, .thumb2, .thumb3, .thumb4 {
+.thumb1,
+.thumb2,
+.thumb3,
+.thumb4 {
     border-radius: 8px;
 }
 
-.thumb1{
-        background: url(../img/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
-        background-size: cover;
-        width: 200px;
-        height: 200px;
-      
-}
-
-.thumb2{
-    background: url(../img/austin-distel-gUIJ0YszPig-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+.thumb1 {
+    background: url(../img/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg) 50% 50%;
+    /* 50% 50% centers image in div */
     background-size: cover;
     width: 200px;
     height: 200px;
-  
+    
 }
 
-.thumb3{
-    background: url(../img/mateusz-butkiewicz-4kPa9y5pb8M-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+.thumb2 {
+    background: url(../img/austin-distel-gUIJ0YszPig-unsplash.jpg) 50% 50%;
+    /* 50% 50% centers image in div */
     background-size: cover;
     width: 200px;
     height: 200px;
-  
+    
 }
 
-.thumb4{
-    background: url(../img/hemant-kanojiya-F00Giwu9mag-unsplash.jpg) 50% 50%; /* 50% 50% centers image in div */
+.thumb3 {
+    background: url(../img/mateusz-butkiewicz-4kPa9y5pb8M-unsplash.jpg) 50% 50%;
+    /* 50% 50% centers image in div */
     background-size: cover;
     width: 200px;
     height: 200px;
-  
+    
 }
 
-.subtext  {
+.thumb4 {
+    background: url(../img/hemant-kanojiya-F00Giwu9mag-unsplash.jpg) 50% 50%;
+    /* 50% 50% centers image in div */
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.subtext {
     width: 200px;
     padding: 8px 0;
     text-align: center;
@@ -216,4 +193,81 @@ blockquote p {
     color: #196ef7;
     font-weight: 900;
     text-decoration: none;
+}
+
+.quote {
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.blockquote {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.figcaption {
+    text-align: right;
+}
+
+
+/* FLEX */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    
+}
+
+.logo{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 350px;
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 50px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.header-img {
+    width: 350px;
+    height: auto;
 }
