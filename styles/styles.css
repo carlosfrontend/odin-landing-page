@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto,  sans-serif;
+    /* border:1px solid lightblue; */
 }
 
 .header, .footer {
@@ -18,6 +19,11 @@
 .secondary-text, .link, .action-content p {
     font-size: 18px;
     color:#E5E7EB;
+}
+
+.logo {
+    min-width: 395px;
+    flex-shrink: 0;
 }
 
 .logo, .action-content h3 {
@@ -41,6 +47,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    margin-top: 16px;
+    justify-self: flex-end;
+    flex-shrink: 0;
 }
 
 .content-title {
@@ -64,4 +73,54 @@ blockquote p {
 
 .footer {
     color: #E5E7EB ;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 40px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8px;
+    gap: 40px;
+    max-height: 400px;
+    
+}
+.navbar, .header-content {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 395px;
+    flex-shrink: 0;
+}
+
+.header-img-container {
+    padding: 20px 0;
+}
+
+.header-img {
+    width: 600px;
+    height: 240px;
+    flex-shrink: 0;
 }
