@@ -21,6 +21,14 @@
     color:#E5E7EB;
 }
 
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    font-weight: 700;
+    color:#F9FAF8;
+}
+
 .logo {
     min-width: 500px;
     flex-shrink: 0;
@@ -48,6 +56,12 @@
     align-items: center;
     border-radius: 8px;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    color:#F9FAF8;
+    background-color: #196ef7;
 }
 
 .content-title {
