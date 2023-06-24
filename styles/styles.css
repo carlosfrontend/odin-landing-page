@@ -106,7 +106,6 @@ blockquote p {
 .header-img-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-end;
     flex: 2;
 }
@@ -119,4 +118,15 @@ blockquote p {
     display: flex;
     justify-content: flex-start;
     padding: 8px 0;
+}
+.attribution-container a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.attribution-container a:hover {
+    color: #dbd9d9;
+    font-weight: 900;
+    text-decoration: none;
 }
