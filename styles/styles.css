@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    /* border: 1px solid lightblue; */
 }
 
 .header,
@@ -142,7 +141,7 @@ blockquote p {
 .thumb3,
 .thumb4 {
     border-radius: 8px;
-    box-shadow: 2px -2px 4px rgba(0,0,0.4);
+    box-shadow: 2px -2px 4px rgba(0, 0, 0.4);
 }
 
 .thumb1 {
@@ -151,7 +150,7 @@ blockquote p {
     background-size: cover;
     width: 200px;
     height: 200px;
-    
+
 }
 
 .thumb2 {
@@ -160,7 +159,7 @@ blockquote p {
     background-size: cover;
     width: 200px;
     height: 200px;
-    
+
 }
 
 .thumb3 {
@@ -169,7 +168,7 @@ blockquote p {
     background-size: cover;
     width: 200px;
     height: 200px;
-    
+
 }
 
 .thumb4 {
@@ -178,7 +177,7 @@ blockquote p {
     background-size: cover;
     width: 200px;
     height: 200px;
-    
+
 }
 
 .subtext {
@@ -225,7 +224,7 @@ blockquote p {
 .header {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .nav {
@@ -234,7 +233,7 @@ blockquote p {
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 100px;
-    
+
 }
 
 
@@ -244,10 +243,10 @@ blockquote p {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 100px;
-    
+
 }
 
-.logo{
+.logo {
     width: 350px;
     display: flex;
     align-items: center;
@@ -262,18 +261,21 @@ blockquote p {
     margin-top: 15px;
     justify-content: flex-end;
 }
+
 .left {
     display: flex;
     flex-direction: column;
     width: 350px;
     margin-bottom: 50px;
 }
+
 .right {
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 284px;
 }
+
 .header-img {
     width: 350px;
     height: auto;
@@ -288,7 +290,7 @@ blockquote p {
     gap: 140px;
     flex-wrap: wrap;
     flex: 1;
-    border:150px solid #ffff
+    border: 150px solid #ffff
 }
 
 .footer {
