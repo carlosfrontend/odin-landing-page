@@ -1,5 +1,5 @@
 # Odin-Landing-Page
-Landing Page | The Odin Project
+Landing Page | The Odin Project |
 [Project: Landing Page](https://github.com/carlosfrontend/odin-landing-page)
 
 [Go to Preview](https://carlosfrontend.github.io/odin-landing-page/) :point_left:
